@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2E9C34321C20814E009FBBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C34311C20814E009FBBBB /* main.m */; };
 		2E9C34351C20814E009FBBBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C34341C20814E009FBBBB /* AppDelegate.m */; };
-		2E9C34381C20814E009FBBBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C34371C20814E009FBBBB /* ViewController.m */; };
+		2E9C34381C20814E009FBBBB /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C34371C20814E009FBBBB /* CalculatorViewController.m */; };
 		2E9C343B1C20814E009FBBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9C34391C20814E009FBBBB /* Main.storyboard */; };
 		2E9C343D1C20814E009FBBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9C343C1C20814E009FBBBB /* Assets.xcassets */; };
 		2E9C34401C20814E009FBBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9C343E1C20814E009FBBBB /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		2E9C34311C20814E009FBBBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E9C34331C20814E009FBBBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E9C34341C20814E009FBBBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E9C34361C20814E009FBBBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E9C34371C20814E009FBBBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E9C34361C20814E009FBBBB /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		2E9C34371C20814E009FBBBB /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		2E9C343A1C20814E009FBBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E9C343C1C20814E009FBBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9C343F1C20814E009FBBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 			children = (
 				2E9C34331C20814E009FBBBB /* AppDelegate.h */,
 				2E9C34341C20814E009FBBBB /* AppDelegate.m */,
-				2E9C34361C20814E009FBBBB /* ViewController.h */,
-				2E9C34371C20814E009FBBBB /* ViewController.m */,
+				2E9C34361C20814E009FBBBB /* CalculatorViewController.h */,
+				2E9C34371C20814E009FBBBB /* CalculatorViewController.m */,
 				2E9C34391C20814E009FBBBB /* Main.storyboard */,
 				2E9C343C1C20814E009FBBBB /* Assets.xcassets */,
 				2E9C343E1C20814E009FBBBB /* LaunchScreen.storyboard */,
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9C34381C20814E009FBBBB /* ViewController.m in Sources */,
+				2E9C34381C20814E009FBBBB /* CalculatorViewController.m in Sources */,
 				2E9C34351C20814E009FBBBB /* AppDelegate.m in Sources */,
 				2E9C34321C20814E009FBBBB /* main.m in Sources */,
 			);
